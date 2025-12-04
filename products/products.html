@@ -32,9 +32,9 @@
         <div class="search-bar-container">
           <input type="text" id="search-input" placeholder="Search products..." class="search-input" />
           <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-               xmlns="http://www.w3.org/2000/svg">
+            xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
         </div>
       </div>
@@ -45,14 +45,17 @@
           <div class="product-info">
             <h3 class="product-name">Gallon Container</h3>
             <p class="product-price" data-price="200.00">₱200.00</p>
-            <div class="rating-count hidden" id="rating-Gallon Container">0 👍 | 0 👎</div>
+            
+            <div class="star-rating-container" data-product="Gallon Container">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+            </div>
             <div class="product-quantity-control">
               <label for="qty1">Qty:</label>
               <input type="number" id="qty1" value="1" min="1" max="99" class="quantity-input">
-              <div class="rating-container vertical" data-product="Gallon Container">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
             </div>
             <button class="add-to-cart-btn">Add to Cart</button>
           </div>
@@ -63,14 +66,17 @@
           <div class="product-info">
             <h3 class="product-name">Gallon Round Container</h3>
             <p class="product-price" data-price="150.00">₱150.00</p>
-            <div class="rating-count hidden" id="rating-Gallon Round Container">0 👍 | 0 👎</div>
+            
+            <div class="star-rating-container" data-product="Gallon Round Container">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+            </div>
             <div class="product-quantity-control">
               <label for="qty2">Qty:</label>
               <input type="number" id="qty2" value="1" min="1" max="99" class="quantity-input">
-              <div class="rating-container vertical" data-product="Gallon Round Container">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
             </div>
             <button class="add-to-cart-btn">Add to Cart</button>
           </div>
@@ -81,14 +87,17 @@
           <div class="product-info">
             <h3 class="product-name">Plastic Water Bottle</h3>
             <p class="product-price" data-price="15.00">₱15.00</p>
-            <div class="rating-count hidden" id="rating-Plastic Water Bottle">0 👍 | 0 👎</div>
+            
+            <div class="star-rating-container" data-product="Plastic Water Bottle">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+            </div>
             <div class="product-quantity-control">
               <label for="qty3">Qty:</label>
               <input type="number" id="qty3" value="1" min="1" max="10" class="quantity-input">
-              <div class="rating-container vertical" data-product="Plastic Water Bottle">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
             </div>
             <button class="add-to-cart-btn">Add to Cart</button>
           </div>
@@ -99,122 +108,17 @@
           <div class="product-info">
             <h3 class="product-name">Ice Bag</h3>
             <p class="product-price" data-price="1.00">₱1.00</p>
-            <div class="rating-count hidden" id="rating-Ice Bag">0 👍 | 0 👎</div>
+            
+            <div class="star-rating-container" data-product="Ice Bag">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+            </div>
             <div class="product-quantity-control">
               <label for="qty4">Qty:</label>
               <input type="number" id="qty4" value="1" min="1" max="50" class="quantity-input">
-              <div class="rating-container vertical" data-product="Ice Bag">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products5.jpg" alt="Case of Water Bottle" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Case of Water Bottle</h3>
-            <p class="product-price" data-price="180.00">₱180.00</p>
-            <div class="rating-count hidden" id="rating-Case of Water Bottle">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty5">Qty:</label>
-              <input type="number" id="qty5" value="1" min="1" max="15" class="quantity-input">
-              <div class="rating-container vertical" data-product="Case of Water Bottle">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products6.jpg" alt="Gallon Refills" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Gallon Refills</h3>
-            <p class="product-price" data-price="60.00">₱60.00</p>
-            <div class="rating-count hidden" id="rating-Gallon Refills">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty6">Qty:</label>
-              <input type="number" id="qty6" value="1" min="1" max="20" class="quantity-input">
-              <div class="rating-container vertical" data-product="Gallon Refills">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products7.jpg" alt="ice cubes" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Ice cube packs</h3>
-            <p class="product-price" data-price="5.00">₱5.00</p>
-            <div class="rating-count hidden" id="rating-Ice cube packs">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty6">Qty:</label>
-              <input type="number" id="qty6" value="1" min="1" max="20" class="quantity-input">
-              <div class="rating-container vertical" data-product="Ice cube packs">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products8.jpg" alt="dispenser cleaning" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Water dispenser cleaning service</h3>
-            <p class="product-price" data-price="150.00">₱150.00</p>
-            <div class="rating-count hidden" id="rating-dispenser cleaning">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty6">Qty:</label>
-              <input type="number" id="qty6" value="1" min="1" max="20" class="quantity-input">
-              <div class="rating-container vertical" data-product="dispenser cleaning">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products9.jfif" alt="gallon jug refill" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Gallon Jug Refill</h3>
-            <p class="product-price" data-price="60.00">₱60.00</p>
-            <div class="rating-count hidden" id="rating-gallon jug refill">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty6">Qty:</label>
-              <input type="number" id="qty6" value="1" min="1" max="20" class="quantity-input">
-              <div class="rating-container vertical" data-product="gallon jug refill">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
-            </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card reveal-item">
-          <img src="../images/products10.jfif" alt="water bottle refill" class="product-image">
-          <div class="product-info">
-            <h3 class="product-name">Water Bottle Refill</h3>
-            <p class="product-price" data-price="5.00">₱5.00</p>
-            <div class="rating-count hidden" id="rating-water bottle refill">0 👍 | 0 👎</div>
-            <div class="product-quantity-control">
-              <label for="qty6">Qty:</label>
-              <input type="number" id="qty6" value="1" min="1" max="20" class="quantity-input">
-              <div class="rating-container vertical" data-product="water bottle refill">
-                <span class="thumb up" data-value="up">👍</span>
-                <span class="thumb down" data-value="down">👎</span>
-              </div>
             </div>
             <button class="add-to-cart-btn">Add to Cart</button>
           </div>
@@ -257,6 +161,8 @@
     menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
     const searchInput = document.getElementById('search-input');
     const productCards = document.querySelectorAll('.product-card');
+    
+    // Search functionality
     searchInput.addEventListener('input', e => {
       const term = e.target.value.toLowerCase();
       productCards.forEach(card => {
@@ -290,23 +196,71 @@
       }
     }
 
+    function highlightStars(container, value) {
+      const stars = container.querySelectorAll('.star');
+      stars.forEach(star => {
+        star.classList.remove('selected');
+        if (parseInt(star.dataset.value) <= parseInt(value)) {
+          star.classList.add('selected');
+        }
+      });
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
       const savedCart = JSON.parse(localStorage.getItem('cartItems')) || [];
       updateCartDisplay(savedCart);
 
-      document.querySelectorAll('.rating-container').forEach(container => {
+      document.querySelectorAll('.star-rating-container').forEach(container => {
         const product = container.dataset.product;
         let savedRating = localStorage.getItem(`rating-${product}`);
-        if (savedRating) highlightThumb(container, savedRating);
+        if (savedRating) highlightStars(container, savedRating);
       });
     });
 
+    document.querySelectorAll('.star-rating-container .star').forEach(star => {
+      star.addEventListener('click', () => {
+        const container = star.closest('.star-rating-container');
+        const product = container.dataset.product;
+        const value = star.dataset.value;
+        localStorage.setItem(`rating-${product}`, value);
+        highlightStars(container, value);
+      });
+    });
+
+    document.querySelectorAll('.star-rating-container').forEach(container => {
+        const stars = container.querySelectorAll('.star');
+        
+        container.addEventListener('mouseover', (e) => {
+            if (e.target.classList.contains('star')) {
+                const hoverValue = parseInt(e.target.dataset.value);
+                stars.forEach(star => {
+                    star.style.color = parseInt(star.dataset.value) <= hoverValue ? 'var(--star-color)' : 'var(--border-color)';
+                });
+            }
+        });
+
+        container.addEventListener('mouseout', () => {
+            const product = container.dataset.product;
+            let savedRating = localStorage.getItem(`rating-${product}`);
+            if (savedRating) {
+                highlightStars(container, savedRating);
+            } else {
+                stars.forEach(star => star.style.color = 'var(--border-color)');
+            }
+        });
+        
+        const product = container.dataset.product;
+        let savedRating = localStorage.getItem(`rating-${product}`);
+        if (savedRating) highlightStars(container, savedRating);
+    });
+    
     document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
       btn.addEventListener('click', e => {
         const card = e.target.closest('.product-card');
         const name = card.querySelector('.product-name').textContent;
         const price = parseFloat(card.querySelector('.product-price').dataset.price);
-        const qty = parseInt(card.querySelector('.quantity-input').value);
+        const qtyInput = card.querySelector('.product-quantity-control .quantity-input');
+        const qty = parseInt(qtyInput.value);
 
         let cart = JSON.parse(localStorage.getItem('cartItems')) || [];
         const idx = cart.findIndex(i => i.name === name);
@@ -359,22 +313,6 @@
       }
     });
 
-    document.querySelectorAll('.rating-container .thumb').forEach(thumb => {
-      thumb.addEventListener('click', () => {
-        const container = thumb.closest('.rating-container');
-        const product = container.dataset.product;
-        const value = thumb.dataset.value;
-        localStorage.setItem(`rating-${product}`, value);
-        highlightThumb(container, value);
-      });
-    });
-
-    function highlightThumb(container, value) {
-      container.querySelectorAll('.thumb').forEach(t => t.classList.remove('selected'));
-      const chosen = container.querySelector(`.thumb[data-value="${value}"]`);
-      if (chosen) chosen.classList.add('selected');
-    }
-
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -387,5 +325,3 @@
   </script>
 </body>
 </html>
-
-
