@@ -1,3 +1,8 @@
+- **Name:** Lim, Mark Angelo B.
+- **Website Name:** Wilcare Aqua
+- **Website Type:** E-commerce
+- **Description:** This website provides details, products, features, and contact of the local business.
+
 # WebPub
 - A requirement for WebPub.
 - A simple frontend website.
